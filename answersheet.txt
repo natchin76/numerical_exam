@@ -14,6 +14,7 @@ int and it worked. Thus int is enough to store the given value.
 
 Prob3:
 C: Library: gsl_integration.h
+   Function:gsl_integration_romberg
 
 Python: Library: scipy.integrate
         Function: romberg()
