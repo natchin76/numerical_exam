@@ -13,7 +13,7 @@ fname='data_5.txt'
 a=np.loadtxt(fname,skiprows=5,usecols=(0,1))
 th=a[0:len(a),0]
 d=a[0:len(a),1]
-df=InterpolatedUnivariateSpline(th,d,k=3)    #cubic spline
+df=InterpolatedUnivariateSpline(th,d,k=3)    #cubic spline(interpolation function)
 thf=np.arange(0,10,.01)
 plt.plot(thf,df(thf),label='interpolated function')
 plt.scatter(th,d,label='data')
