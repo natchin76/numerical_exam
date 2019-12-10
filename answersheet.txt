@@ -1,0 +1,28 @@
+Chintan A. Patel(DTP)
+Numerical methods final exam:
+Answer sheet
+
+
+Prob2:
+C:
+The maximum number that can be stored in int data type is 2141483647, hence 
+the given number can't be stored using int. We can use unsigned int or long int.
+
+Python:
+int can store any huge number. I tried saving the given number in python as 
+int and it worked. Thus int is enough to store the given value.
+
+Prob3:
+C: Library: gsl_integration.h
+
+Python: Library: scipy.integrate
+        Function: romberg()
+        
+Prob4:
+C: Library: gsl_roots.h
+   Function:gsl_root_fsolver_bisection
+Python: Library scipy.optimize
+   Function:bisect   
+   
+Prob5:
+Inferred value of theta:0.5707722851547312           
